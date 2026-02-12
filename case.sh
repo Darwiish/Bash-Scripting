@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#AY
 set -euo pipefail
 
 # --- Service command ---
