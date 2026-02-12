@@ -1,5 +1,15 @@
 #!/bin/bash
 
+# Bash If Statement
+#
+# - Demonstrates basic if/else conditions
+# - Uses command-line arguments for numeric comparison
+# - Performs string comparison
+# - Uses logical operators (AND)
+# - Shows if-elif-else grading logic
+# - Demonstrates nested if statements
+# - Prints formatted output with spacing for readability
+
 age=$1
 
 if [ $age -gt 18 ]; then
