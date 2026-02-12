@@ -7,7 +7,7 @@ while [ $count -le 5 ]; do
 	((count++))
 done
 
-echo # prints an empty line
+echo
 
 fruits=("apple" "banana" "orange")
 index=0
@@ -17,7 +17,7 @@ while [ $index -lt ${#fruits[@]} ]; do
 	((index++))
 done
 
-echo # prints an empty line
+echo
 
 cities=("Dubai" "Copenhagen" "Paris" "Amsterdam" "Oslo")
 index=0
@@ -33,7 +33,7 @@ while [ $index -lt ${#cities[@]} ]; do
 	((index++))
 done
 
-echo # prints an empty line
+echo
 
 tools=("docker" "terraform" "kubernetes" "ansible" "git")
 index=0
@@ -47,7 +47,8 @@ while [ $index -lt ${#tools[@]} ]; do
 	fi
 	((index++))
 done
-echo #prints an empty line
+
+echo
 
 colors=("red" "green" "blue")
 index=0
@@ -56,7 +57,7 @@ while [ $index -lt ${#colors[@]} ]; do
 	((index++))
 done
 
-echo #prints an empty line
+echo
 
 animals=("cat" "dog" "bird")
 index=0
@@ -67,7 +68,7 @@ while [ $index -lt ${#animals[@]} ]; do
 	((index++))
 done
 
-echo #prints an empty line
+echo
 
 numbers=(1 2 3)
 index=0
@@ -76,7 +77,7 @@ while [ $index -lt ${#numbers[@]} ]; do
 	((index++))
 done
 
-echo #prints an empty line
+echo
 
 days=("Mon" "Tue" "Wed")
 index=0
@@ -88,7 +89,7 @@ while [ $index -lt ${#days[@]} ]; do
 
 done
 
-echo #prints an empty line
+echo
 
 count=1
 

@@ -124,5 +124,5 @@ double_number() {
 # Example Calls (can be commented out if sourcing)
 # -----------------------------
 
-# safe_delete "$1"
-# double_number "$2"
+safe_delete "$1"
+double_number "$2"

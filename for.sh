@@ -14,26 +14,26 @@ for item in apple banana orange; do
 	echo $item
 done
 
-echo #prints an empty line
+echo
 
 for day in Mon Tue Wed; do
 	echo "$day"
 done
 
-echo #prints an empty line
+echo
 
 for i in {1..5}; do
 
 	echo "Counting: $i"
 done
 
-echo #prints an empty line
+echo
 
 for fruit in apple banana cherry; do
 	echo "I Love eating ${fruit}s"
 done
 
-echo #prints an empty line
+echo
 
 #touch file1.txt file2.txt file3.txt
 

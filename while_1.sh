@@ -17,7 +17,7 @@ while [ $count -le 6 ]; do
 	((count++))
 done
 
-echo #prints an empty line
+echo
 
 fruits=("apple" "banana" "kiwi")
 index=0
@@ -33,7 +33,7 @@ while [ $index -lt ${#fruits[@]} ]; do
 	((index++))
 done
 
-echo #prints an empty line
+echo
 
 numbers=(1 2 3 4 5 6 7 8 9 10)
 index=0
@@ -47,7 +47,7 @@ while [ $index -lt ${#numbers[@]} ]; do
 	fi
 	((index++))
 done
-echo #prints an empty line
+echo
 
 days=("Mon" "Tue" "Wed" "Thu")
 index=0
@@ -58,7 +58,7 @@ while [ $index -lt ${#days[@]} ]; do
 	((index++))
 done
 
-echo #prints an empty line
+echo
 
 days=("Mon" "Tue" "Wed" "Thu")
 index=0
@@ -70,7 +70,7 @@ while [ $index -lt ${#days[@]} ]; do
 	((index++))
 done
 
-echo #prints an empty line
+echo
 count=1
 
 while [ $count -le 5 ]; do

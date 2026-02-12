@@ -18,7 +18,7 @@ else
 	echo "You are a minor"
 fi
 
-echo #prints an empty line
+echo
 
 name="Alice"
 
@@ -27,7 +27,7 @@ if [ "$name" == "Alice" ]; then
 
 fi
 
-echo #prints an empty line
+echo
 
 grade=95
 
@@ -35,7 +35,7 @@ if [ $grade -ge 90 ] && [ $grade -le 100 ]; then
 	echo "Excellent"
 fi
 
-echo #prints an empty line
+echo
 
 scoree=$1
 
@@ -47,7 +47,7 @@ else
 	echo "Good Luck Next Time"
 fi
 
-echo #prints an empty line
+echo
 
 age=18
 grade=85
@@ -64,7 +64,8 @@ else
 	echo "Sorry, You are not Elegible"
 fi
 
-echo #prints an empty line
+echo
+
 score=65
 
 if [ $score -ge 90 ]; then

@@ -1,39 +1,54 @@
 #!/bin/bash
 
+# ------------------------------
+# Function: get_date
+# Prints the current date and time
+# ------------------------------
+
 get_date() {
-	echo "$(date)"
+	date
 }
+
+# Call the function directly
 get_date
 
+# Store date in a variable
 today=$(get_date)
 echo "Today is $today"
 
-echo # printes an empty line
+echo
 
-# A function that reads from a pipe
+# ------------------------------
+# Function: count_lines
+# Reads from a pipe and counts lines
+# ------------------------------
 count_lines() {
 	local lines
-	lines=$(cat) # Reads all input from the pipe
+	lines=$(cat) # Read all piped input
 	echo "You sent me $(echo "$lines" | wc -l) lines of data."
 }
-# Usage:
+
+# Example usage: count lines of /etc
 ls /etc | count_lines
 
-echo # printes an empty line
+echo
 
-# This tells you how many times each unique line appears
-echo "$lines" | sort | uniq -c | sort -nr
+# Count occurrences of unique lines (example: files in /etc)
+ls /etc | sort | uniq -c | sort -nr
 
-echo # printes an empty line
+echo
 
+# ------------------------------
+# Function: smart_count
+# Counts lines from a file or piped input
+# ------------------------------
 smart_count() {
 	local input_data
 
-	# Check if a filename was passed as the first argument ($1)
-	# and if that file actually exists (-f)
+	# If a filename is provided
 	if [ -f "$1" ]; then
 		input_data=$(cat "$1")
-	# Check if data is being piped in (checking if stdin is not a terminal)
+	# If data is piped in
 	elif [ ! -t 0 ]; then
 		input_data=$(cat)
 	else
@@ -45,29 +60,40 @@ smart_count() {
 	count=$(echo "$input_data" | wc -l)
 	echo "Total lines: $count"
 }
-smart_count
 
-echo # printes an empty line
+# Example usage:
+# From a file: smart_count /etc/passwd
+# From a pipe: ls /etc | smart_count
+ls /etc | smart_count
 
+echo
+
+# ------------------------------
+# Function: analyze_logs
+# Analyzes a log file for a keyword
+# ------------------------------
 analyze_logs() {
 	local log_file=${1:? "Error: Please provide a log file."}
-	local keyword=${2:-"ERROR"} # Default search to ERROR if not provided
+	local keyword=${2:-"ERROR"} # Default keyword is ERROR
 
 	echo "--- Analysis Report for $log_file ---"
 
-	# 1. cat: Load the file
-	# 2. grep: Find the specific keyword
-	# 3. awk: Print the 1st (date) and 4th (error type) columns
-	# 4. wc: Provide a final count at the end
+	# Print date and type for each matching line
+	grep "$keyword" "$log_file" | awk '{print "Date: " $1 " | Type: " $4}'
 
-	cat "$log_file" | grep "$keyword" | awk '{print "Date: " $1 " | Type: " $4}'
-
+	# Count total occurrences
 	local count
 	count=$(grep -c "$keyword" "$log_file")
 	echo "--------------------------------------"
 	echo "Total $keyword occurrences: $count"
 }
-analyze_logs "$1"
+
+# Call analyze_logs if a log file argument is provided
+if [ -n "$1" ]; then
+	analyze_logs "$1"
+else
+	echo "No log file provided for analysis. Skipping."
+fi
 
 #Count files in a directory
 # ls -1 | wc -l
