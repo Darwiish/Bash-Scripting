@@ -1,5 +1,15 @@
 #!/bin/bash
 
+# Bash Case Statement Advanced Examples
+#
+# - Uses `set -euo pipefail` for safer script execution
+# - Handles service-style commands (start, stop, restart)
+# - Validates missing or invalid arguments
+# - Implements a simple interactive menu system
+# - Executes system commands (date, uptime, disk usage)
+# - Demonstrates case usage with numeric and letter input
+# - Provides clear feedback for invalid selections
+
 set -euo pipefail
 
 # --- Service command ---
