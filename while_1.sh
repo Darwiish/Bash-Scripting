@@ -1,4 +1,14 @@
 #!/bin/bash
+#AY
+# Bash While Loop
+#
+# - Demonstrates basic while loop with counter increment
+# - Iterates through arrays using index values
+# - Uses string length condition inside loops
+# - Identifies even numbers using modulo operator
+# - Displays array length dynamically
+# - Combines conditional logic inside while loops
+# - Prints formatted output with spacing for readability
 
 count=1
 
