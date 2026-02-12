@@ -1,5 +1,15 @@
 #!/bin/bash
 
+#AY
+# Bash For Loop Examples
+#
+# - Demonstrates `for` loops over lists, ranges, and files
+# - Shows variable usage inside strings and messages
+# - Renames `.txt` files safely using a loop
+# - Uses `break` to stop a loop early
+# - Uses `continue` to skip specific iterations
+# - Prints empty lines for readability between sections
+
 for item in apple banana orange; do
 	echo $item
 done
