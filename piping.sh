@@ -103,3 +103,10 @@ fi
 
 #Check if a service is running
 #ps aux | grep "nginx" | grep -v "grep" | wc -l
+
+#hardcoded
+#search_logs() {
+#	local search_terms="$1"
+#	grep "search_terms" error_log.txt | awk '{ print $2 }'
+#}
+#search_logs "ERROR"
