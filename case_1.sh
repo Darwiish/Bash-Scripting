@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#AY
 # Check if exactly one argument is provided
 if [ $# -ne 1 ]; then
 	echo "Usage: $0 <filename_or_directory>"
