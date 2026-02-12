@@ -51,8 +51,13 @@ esac
 
 echo # printes an empty line
 
-# $1 is our command (start, stop, or restart)
-
-echo # printes an empty line
-
 # Mini Practice Exercises
+# Takes one argument and prints it safely
+
+if [ -z "$1" ]; then
+	echo "Error: No argument provided"
+	echo "Usage: $0 <your_argument>"
+	exit 1
+fi
+
+echo "The argument you provided is: $1"
