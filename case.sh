@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Bash Case Statement Advanced Examples
+# Bash Case Statement
 #
 # - Uses `set -euo pipefail` for safer script execution
 # - Handles service-style commands (start, stop, restart)
