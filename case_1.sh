@@ -1,6 +1,6 @@
 #!/bin/bash
-
-# Bash Case Statement Example
+#AY
+# Bash Case Statement
 #
 # - Validates that exactly one argument is provided
 # - Uses a case structure to process user input

@@ -1,15 +1,16 @@
 #!/bin/bash
-
-# Bash Case Statement Example
+#AY
+# Bash functions Statement
 #
-# - Prints greetings with hello_world, greet_person, and greet functions
-# - Displays the current date and stores it in a variable
-# - Includes a safe_delete function to remove all contents of a directory safely
-#   * Prevents deletion if no directory is provided
-#   * Refuses to delete root directory (/)
-#   * Checks that the target directory exists before deleting
-# - Demonstrates local variables, argument handling, and user prompts
-# - Designed for learning, testing, and Git-friendly demo purposes
+# - hello_world / greet_person / greet: print greetings (interactive)
+# - get_date: prints the current date and time
+# - safe_delete: safely deletes contents of a directory with confirmation
+# - double_number: prints double a number (interactive if no argument)
+# - Demonstrates local variables, argument handling, user prompts, and arithmetic
+
+# -----------------------------
+# Greeting Functions
+# -----------------------------
 
 hello_world() {
 	echo "Hello Mate"
@@ -29,8 +30,7 @@ echo
 greet() {
 	local name
 	if [ $# -eq 0 ]; then
-		echo "What is your name?"
-		read name
+		read -p "What is your name? " name
 	else
 		name="$1"
 	fi
@@ -39,6 +39,10 @@ greet() {
 greet
 
 echo
+
+# -----------------------------
+# Utility Functions
+# -----------------------------
 
 get_date() {
 	echo "$(date)"
@@ -52,10 +56,19 @@ echo "Today is $today"
 
 echo
 
-# --- safe_delete function ---
+# -----------------------------
+# Safe Delete Function
+# -----------------------------
+
 safe_delete() {
 	local target_dir="$1"
 
+	# Prompt for directory if not provided
+	if [[ -z "$target_dir" ]]; then
+		read -p "Enter directory to delete contents safely: " target_dir
+	fi
+
+	# Safety checks
 	if [[ -z "$target_dir" ]]; then
 		echo "Error: No directory provided."
 		return 1
@@ -71,10 +84,45 @@ safe_delete() {
 		return 1
 	fi
 
+	# Confirmation prompt
+	read -p "Are you sure you want to delete all contents of '$target_dir'? (yes/no): " confirm
+	if [[ "$confirm" != "yes" ]]; then
+		echo "Aborted."
+		return 0
+	fi
+
+	# Delete contents safely
 	echo "Deleting contents of $target_dir ..."
 	rm -rf "${target_dir:?}/"*
 	echo "Done."
 }
 
-# Call the function with the first script argument
-safe_delete "$1"
+# -----------------------------
+# Double Number Function (Exercise 3)
+# -----------------------------
+
+double_number() {
+	local input="$1"
+
+	# Prompt if no input is given
+	if [[ -z "$input" ]]; then
+		read -p "Enter a number: " input
+	fi
+
+	# Validate numeric input
+	while ! [[ "$input" =~ ^-?[0-9]+$ ]]; do
+		echo "Error: Input is not a valid integer."
+		read -p "Please enter a valid number: " input
+	done
+
+	# Calculate and display double
+	local double=$((input * 2))
+	echo "Double of $input is $double"
+}
+
+# -----------------------------
+# Example Calls (can be commented out if sourcing)
+# -----------------------------
+
+# safe_delete "$1"
+# double_number "$2"
