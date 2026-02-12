@@ -1,6 +1,15 @@
 #!/bin/bash
-#AY
+
+# Bash Case Statement Example
+#
+# - Validates that exactly one argument is provided
+# - Uses a case structure to process user input
+# - Checks whether the input is a file or directory
+# - Displays file size for regular files
+# - Counts items inside a directory
+# - Handles invalid input gracefully with error messages
 # Check if exactly one argument is provided
+
 if [ $# -ne 1 ]; then
 	echo "Usage: $0 <filename_or_directory>"
 	exit 1
