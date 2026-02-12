@@ -1,4 +1,5 @@
 #!/bin/bash
+
 set -euo pipefail
 
 # --- Service command ---
@@ -49,15 +50,4 @@ b) echo "You entered B" ;;
 *) echo "Unknown letter" ;;
 esac
 
-echo # printes an empty line
-
-# Mini Practice Exercises
-# Takes one argument and prints it safely
-
-if [ -z "$1" ]; then
-	echo "Error: No argument provided"
-	echo "Usage: $0 <your_argument>"
-	exit 1
-fi
-
-echo "The argument you provided is: $1"
+echo
