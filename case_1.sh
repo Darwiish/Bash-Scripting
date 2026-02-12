@@ -1,5 +1,5 @@
 #!/bin/bash
-#AY
+
 # Bash Case Statement
 #
 # - Validates that exactly one argument is provided
