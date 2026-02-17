@@ -1,0 +1,5 @@
+Focus on reading files and learn different techniques
+to extract data and process information from them. 
+Reading files is an important task in scripting. 
+It allows us to access and extract valuable information
+from various types of files.
