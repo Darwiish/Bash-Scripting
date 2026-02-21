@@ -1,21 +1,85 @@
-# Bash-Scripting
+devops-learning/
+├── bash-scripting/
+│ ├── arithmetic_calculator.sh
+│ ├── file_operations.sh
+│ ├── file_checker.sh
+│ ├── backup_txt.sh
+│ ├── system_monitor.sh
+│ └── README.md
+│
+└── Bash-Battle-Arena/
+├── Arena/
+├── Battlefield/
+├── Backup/
+├── game.sh
+├── level1_.sh
+├── level2_.sh
+├── level3_.sh
+├── level4_.sh
+├── level5_.sh
+├── writing_file.sh
+├── read.txt
+└── README.md
+---
 
-Hands-on Bash scripting and Linux exercises designed to strengthen DevOps fundamentals.
+## 1️⃣ Bash Scripting (Learning Exercises)
 
-## Exercises Included
+Short overview of **five key assignments**:
 
-- `case.sh` – Practice Bash case statements
-- `for.sh` – Loops using for
-- `while.sh` – Loops using while
-- `functions.sh` – Functions and modular scripting
-- `piping.sh` – Using pipes and redirections
-- `if.sh` – Practice conditional statements
-- `file1.txt`, `file2.txt`, `file3.txt`, `file4.txt` – Sample text files for exercises
-- `log1`, `log2`, `log3`, `log4` – Sample log files
-- `error_log.txt`, `empty_log.txt` – Files for exercises
+1. **Arithmetic Calculator** – Take two numbers, perform addition, subtraction, multiplication, division. Handle division by zero.  
+2. **File Operations Script** – Create a directory and file, write current date, display contents.  
+3. **File Checker with Permissions** – Check if a file exists and show read/write/execute permissions.  
+4. **Backup Script for Text Files** – Copy all `.txt` files to a timestamped backup folder.  
+5. **System Monitor Script (Bonus)** – Display CPU, memory, disk usage, top 5 memory-consuming processes; log with timestamp.  
 
-## How to Use
+**Link to folder:** [bash-scripting](bash-scripting/)
 
-1. Clone the repository:
-```bash
-git clone https://github.com/Darwiish/Bash-Scripting.git
+---
+
+## 2️⃣ Bash Battle Arena (Interactive Project)
+
+A text-based game that demonstrates **advanced Bash scripting** with **10 progressive levels**:
+
+### Levels Overview
+
+1. **Level 1** – Create `Arena` directory with `warrior.txt`, `mage.txt`, `archer.txt`.  
+2. **Level 2** – Output numbers 1–10 using loops.  
+3. **Level 3** – Check for `hero.txt` and display presence message.  
+4. **Level 4** – Copy all `.txt` files from `Arena` to `Backup`.  
+5. **Level 5** – Boss battle: create `Battlefield` with knight, sorcerer, rogue files, move knight to `Archive`.  
+6. **Level 6** – Parse filename argument, count lines, show message if missing.  
+7. **Level 7** – Sort `.txt` files by size, display list.  
+8. **Level 8** – Search all `.log` files for a keyword and list matches.  
+9. **Level 9** – Monitor a directory for changes and log them with timestamps.  
+10. **Level 10** – Intermediate boss: create `Arena_Boss`, generate random lines in files, sort by size, move files containing `Victory` to `Victory_Archive`.  
+
+**Link to folder:** [Bash-Battle-Arena](Bash-Battle-Arena/)
+
+**Highlights:**
+
+- Interactive levels with heroes and bosses  
+- File management, loops, conditionals, backups  
+- Timestamped logging for actions  
+- Levels 1–10 completed; Levels 11–15 planned  
+- Foundation for future extensions: menus, scoring, UI  
+
+---
+
+## Key Takeaways
+
+1. Strong **Bash scripting and Linux automation skills**  
+2. Practical experience with **file operations, loops, and conditionals**  
+3. Ability to **build both exercises and interactive projects**  
+4. Skills transferable to **DevOps, CI/CD pipelines, and system administration**
+
+---
+
+## How to Explore
+
+1. Start with **[bash-scripting](bash-scripting/)** to review exercises.  
+2. Explore **[Bash-Battle-Arena](Bash-Battle-Arena/)** to play levels 1–10.  
+3. Run scripts in a Linux terminal or WSL environment.  
+
+---
+
+> This repository is a ready demonstration of Bash scripting and DevOps fundamentals, suitable for showcases, or self-study projects.
