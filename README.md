@@ -11,7 +11,7 @@ Short overview of **five key assignments**:
 4. **Backup Script for Text Files** – Copy all `.txt` files to a timestamped backup folder.  
 5. **System Monitor Script (Bonus)** – Display CPU, memory, disk usage, top 5 memory-consuming processes; log with timestamp.  
 
-**Link to folder:** [Bash-Scripting/](https://github.com/Darwiish/Bash-Scripting )
+**Link to folder:** [Bash-Scripting/](https://github.com/Darwiish/Bash-Scripting)
 
 ---
 
@@ -32,7 +32,7 @@ A text-based game that demonstrates **advanced Bash scripting** with **10 progre
 9. **Level 9** – Monitor a directory for changes and log them with timestamps.  
 10. **Level 10** – Intermediate boss: create `Arena_Boss`, generate random lines in files, sort by size, move files containing `Victory` to `Victory_Archive`.  
 
-**Link to folder:** [Bash-Battle-Arena/](https://github.com/Darwiish/Bash-Battle-Arena )
+**Link to folder:** [Bash-Battle-Arena/](https://github.com/Darwiish/Bash-Battle-Arena)
 
 **Highlights:**
 
@@ -55,8 +55,8 @@ A text-based game that demonstrates **advanced Bash scripting** with **10 progre
 
 ## How to Explore
 
-1. Start with **[bash-scripting](bash-scripting/)** to review exercises.  
-2. Explore **[Bash-Battle-Arena](Bash-Battle-Arena/)** to play levels 1–10.  
+1. Start with **[bash-scripting](https://github.com/Darwiish/Bash-Scripting)** to review exercises.  
+2. Explore **[Bash-Battle-Arena](https://github.com/Darwiish/Bash-Battle-Arena)** to play levels 1–10.  
 3. Run scripts in a Linux terminal or WSL environment.  
 
 ---
