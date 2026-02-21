@@ -1,25 +1,4 @@
-devops-learning/
-├── bash-scripting/
-│ ├── arithmetic_calculator.sh
-│ ├── file_operations.sh
-│ ├── file_checker.sh
-│ ├── backup_txt.sh
-│ ├── system_monitor.sh
-│ └── README.md
-│
-└── Bash-Battle-Arena/
-├── Arena/
-├── Battlefield/
-├── Backup/
-├── game.sh
-├── level1_.sh
-├── level2_.sh
-├── level3_.sh
-├── level4_.sh
-├── level5_.sh
-├── writing_file.sh
-├── read.txt
-└── README.md
+
 ---
 
 ## 1️⃣ Bash Scripting (Learning Exercises)
@@ -32,7 +11,7 @@ Short overview of **five key assignments**:
 4. **Backup Script for Text Files** – Copy all `.txt` files to a timestamped backup folder.  
 5. **System Monitor Script (Bonus)** – Display CPU, memory, disk usage, top 5 memory-consuming processes; log with timestamp.  
 
-**Link to folder:** [bash-scripting](bash-scripting/)
+**Link to folder:** [bash-scripting](Bash-Scripting/)
 
 ---
 
