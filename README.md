@@ -11,7 +11,7 @@ Short overview of **five key assignments**:
 4. **Backup Script for Text Files** – Copy all `.txt` files to a timestamped backup folder.  
 5. **System Monitor Script (Bonus)** – Display CPU, memory, disk usage, top 5 memory-consuming processes; log with timestamp.  
 
-**Link to folder:** [bash-scripting](Bash-Scripting/)
+**Link to folder:** [Bash-Scripting/](https://github.com/Darwiish/Bash-Scripting ))
 
 ---
 
