@@ -25,7 +25,10 @@ EOF
 read_file() {
 
 	local file_path="$1"
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2ec9688 (Move existing files into Git repo)
 	while IFS= read -r line; do
 		echo "$line"
 	done <"$file_path"
