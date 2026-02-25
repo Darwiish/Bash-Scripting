@@ -1,17 +1,20 @@
+# Bash Scripting and Bash Battle Arena
+
+This repository demonstrates **hands-on Bash scripting** and Linux exercises to strengthen DevOps fundamentals. It includes both structured learning exercises and an interactive project.
 
 ---
 
 ## 1️⃣ Bash Scripting (Learning Exercises)
 
-Short overview of **five key assignments**:
+Short overview of five key assignments:
 
 1. **Arithmetic Calculator** – Take two numbers, perform addition, subtraction, multiplication, division. Handle division by zero.  
 2. **File Operations Script** – Create a directory and file, write current date, display contents.  
 3. **File Checker with Permissions** – Check if a file exists and show read/write/execute permissions.  
 4. **Backup Script for Text Files** – Copy all `.txt` files to a timestamped backup folder.  
-5. **System Monitor Script (Bonus)** – Display CPU, memory, disk usage, top 5 memory-consuming processes; log with timestamp.  
+5. **System Monitor Script (Bonus)** – Display CPU, memory, disk usage, top 5 memory-consuming processes; log with timestamp.
 
-**Link to folder:** [Bash-Scripting/](https://github.com/Darwiish/Bash-Scripting)
+**Link to folder:** [Bash-Scripting](https://github.com/Darwiish/Bash-Scripting)
 
 ---
 
@@ -32,7 +35,7 @@ A text-based game that demonstrates **advanced Bash scripting** with **10 progre
 9. **Level 9** – Monitor a directory for changes and log them with timestamps.  
 10. **Level 10** – Intermediate boss: create `Arena_Boss`, generate random lines in files, sort by size, move files containing `Victory` to `Victory_Archive`.  
 
-**Link to folder:** [Bash-Battle-Arena/](https://github.com/Darwiish/Bash-Battle-Arena)
+**Link to folder:** [Bash-Battle-Arena](https://github.com/Darwiish/Bash-Battle-Arena)
 
 **Highlights:**
 
@@ -46,42 +49,17 @@ A text-based game that demonstrates **advanced Bash scripting** with **10 progre
 
 ## Key Takeaways
 
-1. Strong **Bash scripting and Linux automation skills**  
-2. Practical experience with **file operations, loops, and conditionals**  
-3. Ability to **build both exercises and interactive projects**  
-4. Skills transferable to **DevOps, CI/CD pipelines, and system administration**
+- Strong **Bash scripting and Linux automation skills**  
+- Practical experience with **file operations, loops, and conditionals**  
+- Ability to **build both exercises and interactive projects**  
+- Skills transferable to **DevOps, CI/CD pipelines, and system administration**
 
 ---
 
 ## How to Explore
 
-1. Start with **[bash-scripting](https://github.com/Darwiish/Bash-Scripting)** to review exercises.  
+1. Start with **[Bash-Scripting](https://github.com/Darwiish/Bash-Scripting)** to review exercises.  
 2. Explore **[Bash-Battle-Arena](https://github.com/Darwiish/Bash-Battle-Arena)** to play levels 1–10.  
 3. Run scripts in a Linux terminal or WSL environment.  
 
----
-
-> This repository is a ready demonstration of Bash scripting and DevOps fundamentals, suitable for showcases, or self-study projects.
-=======
-# Bash-Scripting
-
-Hands-on Bash scripting and Linux exercises designed to strengthen DevOps fundamentals.
-
-## Exercises Included
-
-- `case.sh` – Practice Bash case statements
-- `for.sh` – Loops using for
-- `while.sh` – Loops using while
-- `functions.sh` – Functions and modular scripting
-- `piping.sh` – Using pipes and redirections
-- `if.sh` – Practice conditional statements
-- `file1.txt`, `file2.txt`, `file3.txt`, `file4.txt` – Sample text files for exercises
-- `log1`, `log2`, `log3`, `log4` – Sample log files
-- `error_log.txt`, `empty_log.txt` – Files for exercises
-
-## How to Use
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Darwiish/Bash-Scripting.git
->>>>>>> 2ec9688 (Move existing files into Git repo)
+> This repository is a ready demonstration of Bash scripting and DevOps fundamentals, suitable for showcases or self-study projects.
