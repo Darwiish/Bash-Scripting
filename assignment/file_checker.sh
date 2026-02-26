@@ -4,11 +4,13 @@
 
 FILE=$1
 
+# Check if filename is provided
 if [ -z "$FILE" ]; then
 	echo "Usage: $0 <filename>"
 	exit 1
 fi
 
+# Check if the file exists
 if [ -e "$FILE" ]; then
 	echo "The file $FILE exists."
 
