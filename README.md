@@ -31,16 +31,27 @@ Level 2 – Output numbers 1–10 using loops.
 Level 3 – Check for hero.txt and display presence message.
 
 Level 4 – Copy all .txt files from Arena to Backup.
+
 Level 5 – Boss battle: create Battlefield with knight.txt, sorcerer.txt, rogue.txt, move knight.txt to Archive.
+
 Level 6 – Parse filename argument, count lines, show message if missing.
+
 Level 7 – Sort .txt files by size, display list.
+
 Level 8 – Search all .log files for a keyword and list matches.
+
 Level 9 – Monitor a directory for changes and log them with timestamps.
+
 Level 10 – Intermediate boss: create Arena_Boss, generate random lines in files, sort by size, move files containing “Victory” to Victory_Archive.
+
 Level 11 – Automated disk space report with alerts if threshold exceeded.
+
 Level 12 – Simple configuration file parser (KEY=VALUE) and display values.
+
 Level 13 – Backup script with rotation; keep last 5 backups.
+
 Level 14 – User-friendly menu script for system tasks: disk space, uptime, list users.
+
 Level 15 – Advanced boss: menu-driven script combining disk space check, uptime, Arena backup (keep last 3), and config parsing.
 
 Link to folder: **[Bash-Battle-Arena](https://github.com/Darwiish/Bash-Battle-Arena)**
