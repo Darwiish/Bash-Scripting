@@ -20,31 +20,39 @@ Short overview of five key assignments:
 
 ## 2️⃣ Bash Battle Arena (Interactive Project)
 
-A text-based game that demonstrates **advanced Bash scripting** with **10 progressive levels**:
+A text-based game that demonstrates advanced Bash scripting with 15 progressive levels:
 
-### Levels Overview
+Levels Overview
 
-1. **Level 1** – Create `Arena` directory with `warrior.txt`, `mage.txt`, `archer.txt`.  
-2. **Level 2** – Output numbers 1–10 using loops.  
-3. **Level 3** – Check for `hero.txt` and display presence message.  
-4. **Level 4** – Copy all `.txt` files from `Arena` to `Backup`.  
-5. **Level 5** – Boss battle: create `Battlefield` with knight, sorcerer, rogue files, move knight to `Archive`.  
-6. **Level 6** – Parse filename argument, count lines, show message if missing.  
-7. **Level 7** – Sort `.txt` files by size, display list.  
-8. **Level 8** – Search all `.log` files for a keyword and list matches.  
-9. **Level 9** – Monitor a directory for changes and log them with timestamps.  
-10. **Level 10** – Intermediate boss: create `Arena_Boss`, generate random lines in files, sort by size, move files containing `Victory` to `Victory_Archive`.  
+Level 1 – Create Arena directory with warrior.txt, mage.txt, archer.txt.
+Level 2 – Output numbers 1–10 using loops.
+Level 3 – Check for hero.txt and display presence message.
+Level 4 – Copy all .txt files from Arena to Backup.
+Level 5 – Boss battle: create Battlefield with knight.txt, sorcerer.txt, rogue.txt, move knight.txt to Archive.
+Level 6 – Parse filename argument, count lines, show message if missing.
+Level 7 – Sort .txt files by size, display list.
+Level 8 – Search all .log files for a keyword and list matches.
+Level 9 – Monitor a directory for changes and log them with timestamps.
+Level 10 – Intermediate boss: create Arena_Boss, generate random lines in files, sort by size, move files containing “Victory” to Victory_Archive.
+Level 11 – Automated disk space report with alerts if threshold exceeded.
+Level 12 – Simple configuration file parser (KEY=VALUE) and display values.
+Level 13 – Backup script with rotation; keep last 5 backups.
+Level 14 – User-friendly menu script for system tasks: disk space, uptime, list users.
+Level 15 – Advanced boss: menu-driven script combining disk space check, uptime, Arena backup (keep last 3), and config parsing.
 
-**Link to folder:** [Bash-Battle-Arena](https://github.com/Darwiish/Bash-Battle-Arena)
+Link to folder: Bash-Battle-Arena
 
-**Highlights:**
+Highlights:
 
-- Interactive levels with heroes and bosses  
-- File management, loops, conditionals, backups  
-- Timestamped logging for actions  
-- Levels 1–10 completed; Levels 11–15 planned  
-- Foundation for future extensions: menus, scoring, UI  
+Interactive levels with heroes and bosses
 
+File management, loops, conditionals, backups
+
+Timestamped logging for actions
+
+Levels 1–15 completed/planned
+
+Foundation for future extensions: menus, scoring, UI
 ---
 
 ## Key Takeaways
