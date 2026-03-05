@@ -25,8 +25,11 @@ A text-based game that demonstrates advanced Bash scripting with 15 progressive 
 Levels Overview
 
 Level 1 – Create Arena directory with warrior.txt, mage.txt, archer.txt.
+
 Level 2 – Output numbers 1–10 using loops.
+
 Level 3 – Check for hero.txt and display presence message.
+
 Level 4 – Copy all .txt files from Arena to Backup.
 Level 5 – Boss battle: create Battlefield with knight.txt, sorcerer.txt, rogue.txt, move knight.txt to Archive.
 Level 6 – Parse filename argument, count lines, show message if missing.
