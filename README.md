@@ -40,19 +40,16 @@ Level 13 – Backup script with rotation; keep last 5 backups.
 Level 14 – User-friendly menu script for system tasks: disk space, uptime, list users.
 Level 15 – Advanced boss: menu-driven script combining disk space check, uptime, Arena backup (keep last 3), and config parsing.
 
-Link to folder: Bash-Battle-Arena
+Link to folder: **[Bash-Battle-Arena](https://github.com/Darwiish/Bash-Battle-Arena)**
 
 Highlights:
 
 Interactive levels with heroes and bosses
-
 File management, loops, conditionals, backups
-
 Timestamped logging for actions
-
 Levels 1–15 completed/planned
-
 Foundation for future extensions: menus, scoring, UI
+
 ---
 
 ## Key Takeaways
