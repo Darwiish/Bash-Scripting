@@ -42,13 +42,13 @@ Level 15 – Advanced boss: menu-driven script combining disk space check, uptim
 
 Link to folder: **[Bash-Battle-Arena](https://github.com/Darwiish/Bash-Battle-Arena)**
 
-Highlights:
+## Highlights:
 
-Interactive levels with heroes and bosses
-File management, loops, conditionals, backups
-Timestamped logging for actions
-Levels 1–15 completed/planned
-Foundation for future extensions: menus, scoring, UI
+-Interactive levels with heroes and bosses
+-File management, loops, conditionals, backups
+-Timestamped logging for actions
+-Levels 1–15 completed/planned
+-Foundation for future extensions: menus, scoring, UI
 
 ---
 
