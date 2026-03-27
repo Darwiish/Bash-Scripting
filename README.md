@@ -78,7 +78,7 @@ Link to folder: **[Bash-Battle-Arena](https://github.com/Darwiish/Bash-Battle-Ar
 ## How to Explore
 
 1. Start with **[Bash-Scripting](https://github.com/Darwiish/Bash-Scripting)** to review exercises.  
-2. Explore **[Bash-Battle-Arena](https://github.com/Darwiish/Bash-Battle-Arena)** to play levels 1–10.  
+2. Explore **[Bash-Battle-Arena](https://github.com/Darwiish/Bash-Battle-Arena)** to play levels 1–15.  
 3. Run scripts in a Linux terminal or WSL environment.  
 
 > This repository is a ready demonstration of Bash scripting and DevOps fundamentals, suitable for showcases or self-study projects.
